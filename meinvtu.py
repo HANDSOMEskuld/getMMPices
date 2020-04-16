@@ -57,9 +57,6 @@ def getpicurl(urls,titles,everydir):
 			print("正在下载第%d张图片"%(i+1))
 			savepic(src,path,name)
 
-def getpicurlnodir():
-	pass
-
 #保存每一张图片
 def savepic(src,path,name):
 	#print(src)
